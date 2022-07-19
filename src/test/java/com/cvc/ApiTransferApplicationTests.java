@@ -7,7 +7,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 class ApiTransferApplicationTests {
 
 	@Test
-	void contextLoads() {
+	void main() {
+		ApiTransferApplication.main(new String[] {});
 	}
 
 }
